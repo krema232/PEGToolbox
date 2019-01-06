@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEGToolbox", "PEGToolbox\PEGToolbox.csproj", "{78AEFDFE-5DBD-4DAE-8932-B78DD7377767}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DF90FF45-B011-4FD3-BD2E-12D10472CBB3} = {DF90FF45-B011-4FD3-BD2E-12D10472CBB3}
+		{63BBB3BD-16E0-449C-A0B0-6979439049C5} = {63BBB3BD-16E0-449C-A0B0-6979439049C5}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{417907C8-46B2-4FB6-845E-ADC47D1CA492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulA", "ModulA\ModulA.csproj", "{63BBB3BD-16E0-449C-A0B0-6979439049C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulB", "ModulB\ModulB.csproj", "{DF90FF45-B011-4FD3-BD2E-12D10472CBB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEGToolbox.Infrastructure", "PEGToolbox.Infrastructure\PEGToolbox.Infrastructure.csproj", "{69E79215-F487-4517-A988-46096C1FB74D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78AEFDFE-5DBD-4DAE-8932-B78DD7377767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AEFDFE-5DBD-4DAE-8932-B78DD7377767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AEFDFE-5DBD-4DAE-8932-B78DD7377767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AEFDFE-5DBD-4DAE-8932-B78DD7377767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BBB3BD-16E0-449C-A0B0-6979439049C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BBB3BD-16E0-449C-A0B0-6979439049C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BBB3BD-16E0-449C-A0B0-6979439049C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BBB3BD-16E0-449C-A0B0-6979439049C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF90FF45-B011-4FD3-BD2E-12D10472CBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF90FF45-B011-4FD3-BD2E-12D10472CBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF90FF45-B011-4FD3-BD2E-12D10472CBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF90FF45-B011-4FD3-BD2E-12D10472CBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E79215-F487-4517-A988-46096C1FB74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E79215-F487-4517-A988-46096C1FB74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E79215-F487-4517-A988-46096C1FB74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E79215-F487-4517-A988-46096C1FB74D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63BBB3BD-16E0-449C-A0B0-6979439049C5} = {417907C8-46B2-4FB6-845E-ADC47D1CA492}
+		{DF90FF45-B011-4FD3-BD2E-12D10472CBB3} = {417907C8-46B2-4FB6-845E-ADC47D1CA492}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A812169-C76F-4DDD-8B06-72D445B91CE1}
+	EndGlobalSection
+EndGlobal
